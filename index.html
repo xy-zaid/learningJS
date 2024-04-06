@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Window</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="myH1">Multiple Small Projects </h1>
+
+    <!-- Area Calculator Section -->
+    <section id="areaCalculator">
+        <h2>Area Calculator of a Rectangle</h2>
+        <label class="areaInputs" for="lengthInput">Length:</label>
+        <input type="number" class="areaInputs" placeholder="0" id="lengthInput">
+        <label class="areaInputs" for="breadthInput">Breadth:</label>
+        <input type="number" class="areaInputs" placeholder="0" id="breadthInput">
+
+        <button class="areaDisplay" id="calculateAreaButton">Calculate Area</button>
+    </section>
+    <!-- Counter Section -->
+    <section id="counterSection">
+        <h2> Counter Section</h2>
+        <label for="incrementButton">Increase count</label>
+        <button id="incrementButton"> +
+        </button> <br> <br>
+        <label for="decrementButton">Decrease count</label>
+        <button id="decrementButton"> -
+        </button>
+    </section>
+    <!-- Calculator Section -->
+    <section id="calculatorSection">
+        <h2>Calculator Section</h2>
+        <input type="text" id="calculatorDisplay" readonly>
+        <div id="calculatorKeys">
+            <button class="operatorButton">+</button>
+            <button class="operatorButton">-</button>
+            <button class="operatorButton">*</button>
+            <button class="operatorButton">/</button> <br>
+
+            <button class="numberButton">1</button>
+            <button class="numberButton">2</button>
+            <button class="numberButton">3</button>
+            <button class="numberButton">4</button>
+            <button class="numberButton">5</button>
+            <button class="numberButton">6</button> <br>
+            <button class="numberButton">7</button>
+            <button class="numberButton">8</button>
+            <button class="numberButton">9</button>
+            <button class="numberButton">0</button>
+
+            <button class="equalsButton"> = </button>
+            <button class="clearDisplayButton"> C </button>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+    <script src="advanced.js"></script>
+</body>
+
+</html>
